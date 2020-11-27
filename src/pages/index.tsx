@@ -1,5 +1,5 @@
-import Head from "next/head";
-import { Layout } from "src/components/layout";
+import Head from 'next/head';
+import { Layout } from 'src/components/layout';
 
 const Home: React.FC = () => (
   <Layout>
@@ -8,7 +8,7 @@ const Home: React.FC = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <h2>Home</h2>
-    <button onClick={() => window.alert("Hello, World!")}>Button</button>
+    <button onClick={() => window.alert('Hello, World!')}>Button</button>
   </Layout>
 );
 

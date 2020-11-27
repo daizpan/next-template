@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const items = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
 ];
 
 export const Header: React.FC = () => (
@@ -11,7 +11,7 @@ export const Header: React.FC = () => (
     <nav>
       {items.map((item) => (
         <Link key={item.href} href={item.href}>
-          <a style={{ display: "inline-block", padding: 12 }}>{item.label}</a>
+          <a style={{ display: 'inline-block', padding: 12 }}>{item.label}</a>
         </Link>
       ))}
     </nav>

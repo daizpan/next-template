@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "type-check": "tsc --pretty --noEmit",
@@ -30,7 +31,8 @@
     ]
   },
   "prettier": {
-    "printWidth": 120
+    "printWidth": 120,
+    "singleQuote": true
   },
   "dependencies": {
     "next": "^10.0.2",
